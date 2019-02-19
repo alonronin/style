@@ -31,7 +31,7 @@ This will output:
 ```
 
 You can also Style text, it will wrap them with `span` element by default.
-You can pass `tag` prop with the you want instead:
+You can pass `type` prop with the you want instead:
 
 ```jsx harmony
 <Style type="p" color="red">I'm a stylish text</Style>
