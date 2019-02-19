@@ -7,7 +7,7 @@
   "author": "alonronin <alon@ronin.co.il>",
   "license": "Unlicensed",
   "scripts": {
-    "build": "babel src -d lib -s"
+    "build": "babel src -d lib --delete-dir-on-start -s"
   },
   "devDependencies": {
     "@babel/cli": "^7.2.3",
