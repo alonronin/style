@@ -1,4 +1,4 @@
-# style
+# Style
 > HOC to write react component with Style
 
 ### Demo
