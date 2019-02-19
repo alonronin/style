@@ -37,4 +37,4 @@ You can pass `type` prop with the you want instead:
 <Style type="p" color="red">I'm a stylish text</Style>
 ```
 
-`Style` accepts any valid JavaScript/JSX style attributes.
+`Style` accepts any valid JavaScript/JSX style attributes as props.
