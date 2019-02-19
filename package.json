@@ -1,0 +1,33 @@
+{
+  "name": "@ronin/style",
+  "version": "1.0.0",
+  "description": "HOC to write react components with Style",
+  "main": "./lib",
+  "repository": "https://github.com/alonronin/style.git",
+  "author": "alonronin <alon@ronin.co.il>",
+  "license": "Unlicensed",
+  "scripts": {
+    "build":  "babel src -d lib -s"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.2.3",
+    "@babel/core": "^7.3.3",
+    "@babel/preset-env": "^7.3.1",
+    "@babel/preset-react": "^7.0.0",
+    "prettier": "^1.16.4"
+  },
+  "prettier": {
+    "useTabs": false,
+    "singleQuote": true,
+    "trailingComma": "none",
+    "printWidth": 100,
+    "overrides": [
+      {
+        "files": "*.json",
+        "options": {
+          "parser": "json"
+        }
+      }
+    ]
+  }
+}
