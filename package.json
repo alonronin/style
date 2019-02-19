@@ -1,6 +1,6 @@
 {
   "name": "@ronin/style",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "HOC to write react components with Style",
   "main": "./lib",
   "repository": "https://github.com/alonronin/style.git",
