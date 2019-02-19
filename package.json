@@ -1,13 +1,13 @@
 {
   "name": "@ronin/style",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "HOC to write react components with Style",
   "main": "./lib",
   "repository": "https://github.com/alonronin/style.git",
   "author": "alonronin <alon@ronin.co.il>",
   "license": "Unlicensed",
   "scripts": {
-    "build":  "babel src -d lib -s"
+    "build": "babel src -d lib -s"
   },
   "devDependencies": {
     "@babel/cli": "^7.2.3",
